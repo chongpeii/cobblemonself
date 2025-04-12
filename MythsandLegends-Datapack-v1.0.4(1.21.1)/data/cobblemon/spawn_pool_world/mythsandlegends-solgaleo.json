@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mythsandlegends-solgaleo-1",
+      "pokemon": "solgaleo",
+      "presets": ["natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-80",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plateau",
+          "minecraft:desert",
+          "wythers:badlands_desert"
+        ],
+        "timeRange": "day",
+        "key_item": "sun_flute"
+      }
+    }
+  ]
+}
