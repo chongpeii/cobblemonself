@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mythsandlegends-ogerpon-1",
+      "pokemon": "ogerpon",
+      "presets": ["natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_jungle"
+        ],
+        "moonPhase": 1,
+        "key_item": "teal_mask"
+      }
+    }
+  ]
+}
