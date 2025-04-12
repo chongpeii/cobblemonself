@@ -1,0 +1,15 @@
+{
+    "type": "choice",
+    "keys": [
+      "mega_evolution"
+    ],
+    "default": "base",
+    "choices": [
+      "base",
+      "mega",
+      "mega_x",
+      "mega_y"
+    ],
+    "isAspect": true,
+    "aspectFormat": "{{choice}}"
+  }

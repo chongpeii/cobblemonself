@@ -1,0 +1,63 @@
+{
+    "target": "cobblemon:groudon",
+    "implemented": true,
+    "evolutions": [
+  {
+    "id": "groudon_groudon-primal",
+    "variant": "item_interact",
+    "result": "groudon reversion_state=primal",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:flame_orb"
+  }
+],
+"forms": [
+  {
+    "name": "Primal",
+    "primaryType": "ground",
+    "secondaryType": "fire",
+    "maleRatio": -1,
+    "height": 50,
+    "weight": 9997,
+    "pokedex": [
+      "cobblemon.species.groudon-primal.desc"
+    ],
+    "labels": [
+      "gen6",
+      "legendary",
+      "restricted",
+      "primal"
+    ],
+    "aspects": [
+      "primal"
+    ],
+    "abilities": [
+      "desolateland",
+      "h:desolateland"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 180,
+      "defence": 160,
+      "special_attack": 150,
+      "special_defence": 90,
+      "speed": 90
+    },
+    "baseExperienceYield": 385,
+    "dynamaxBlocked": true,
+    "evolutions": [
+      {
+        "id": "groudon-primal_groudon",
+        "variant": "item_interact",
+        "result": "groudon reversion_state=standard",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "cobblemon:flame_orb"
+      }
+    ],
+    "battleOnly": true
+  }
+]
+}

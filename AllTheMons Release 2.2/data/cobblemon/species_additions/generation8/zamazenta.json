@@ -1,0 +1,55 @@
+{
+    "target": "cobblemon:zamazenta",
+    "implemented": true,
+    "evolutions": [
+        {
+            "id": "zamazenta-base_zamazenta-crowned",
+            "variant": "item_interact",
+            "result": "zamazenta behemoth_warrior=crowned",
+            "consumeHeldItem": false,
+            "requirements": [],
+            "requiredContext": "minecraft:shield"
+          }
+    ],
+    "forms": [
+      {
+        "name": "Crowned",
+        "primaryType": "fighting",
+        "secondaryType": "steel",
+        "maleRatio": -1,
+        "height": 29,
+        "weight": 7850,
+        "pokedex": [
+          "cobblemon.species.zamazenta-crowned.desc"
+        ],
+        "labels": [
+          "gen8",
+          "legendary",
+          "restricted"
+        ],
+        "aspects": [
+          "crowned"
+        ],
+        "baseStats": {
+          "hp": 92,
+          "attack": 120,
+          "defence": 140,
+          "special_attack": 80,
+          "special_defence": 140,
+          "speed": 128
+        },
+        "baseExperienceYield": 350,
+        "evolutions": [
+          {
+            "id": "zamazenta-crowned_zamazenta-base",
+            "variant": "item_interact",
+            "result": "zamazenta behemoth_warrior=hero",
+            "consumeHeldItem": false,
+            "requirements": [],
+            "requiredContext": "minecraft:shield"
+          }
+        ],
+        "battleOnly": true
+      }
+    ]  
+  }

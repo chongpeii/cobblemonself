@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:mewtwo",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:mewtwo",
+      "model": "cobblemon:mewtwo2.geo",
+      "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo.png",
+      "layers": [
+				{
+					"name": "emissive",
+          "emissive": true,
+					"texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_emissive.png",
+          "translucent": true
+				  }
+			]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_shiny.png",
+      "layers": [
+				{
+					"name": "emissive",
+          "emissive": true,
+					"texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_emissive.png",
+          "translucent": true
+				  }
+			]
+    },
+    {
+      "aspects": ["armored"],
+            "layers": [
+        {
+          "name": "armored",
+          "texture": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo_armored.png"
+        }
+      ]
+    }
+  ]
+}

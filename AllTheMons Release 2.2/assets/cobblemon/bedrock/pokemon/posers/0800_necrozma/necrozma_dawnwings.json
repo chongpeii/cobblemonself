@@ -1,0 +1,31 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [ -0.375, 6.42, 0 ],
+  "profileScale": 0.33,
+  "profileTranslation": [ 0.04, 1.52, -20],
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('necrozma_dawn_wings', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('necrozma_dawn_wings', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('necrozma_dawn_wings', 'ground_walk')"
+      ]
+    }
+  }
+}

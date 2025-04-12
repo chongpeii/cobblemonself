@@ -1,0 +1,11 @@
+{    
+"target": "cobblemon:chienpao",
+"implemented": true,
+"shoulderMountable": true,
+"baseScale": 1.3,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "target": "cobblemon:entei",
+  "implemented": true,
+
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 2,
+    "height": 2,
+    "fixed": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+    "target": "cobblemon:kyogre",
+    "implemented": true,
+    "evolutions": [
+    {
+      "id": "kyogre_kyogre-primal",
+      "variant": "item_interact",
+      "result": "kyogre reversion_state=primal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:heart_of_the_sea"
+    }
+  ],
+  "forms": [
+    {
+      "name": "Primal",
+      "primaryType": "water",
+      "maleRatio": -1,
+      "height": 98,
+      "weight": 4300,
+      "pokedex": [
+        "cobblemon.species.kyogre-primal.desc"
+      ],
+      "labels": [
+        "gen6",
+        "legendary",
+        "restricted",
+        "primal"
+      ],
+      "aspects": [
+        "primal"
+      ],
+      "abilities": [
+        "primordialsea",
+        "h:primordialsea"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 150,
+        "defence": 90,
+        "special_attack": 180,
+        "special_defence": 160,
+        "speed": 90
+      },
+      "baseExperienceYield": 385,
+      "dynamaxBlocked": true,
+      "evolutions": [
+        {
+          "id": "kyogre-primal_kyogre",
+          "variant": "item_interact",
+          "result": "kyogre reversion_state=standard",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "minecraft:heart_of_the_sea"
+        }
+      ],
+      "battleOnly": true
+    }
+  ]
+
+}

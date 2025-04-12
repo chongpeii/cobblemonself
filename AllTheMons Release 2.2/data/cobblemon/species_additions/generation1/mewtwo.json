@@ -1,0 +1,66 @@
+{
+  "target": "cobblemon:mewtwo",
+  "implemented": true,
+  "baseScale": 0.95,
+  "hitbox": {
+    "width": 2,
+    "height": 2,
+    "fixed": false
+   },
+   "features": [
+    "shadow",
+    "armored"
+  ],
+  "evolutions": [
+    {
+      "id": "mewtwo_mewtwoshadow",
+      "variant": "item_interact",
+      "result": "mewtwo shadow",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dark_gem"
+  },
+  {
+    "id": "mewtwo_mewtwoarmored",
+    "variant": "item_interact",
+    "result": "mewtwo armored",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:steel_gem"
+  }
+  ],
+   "forms": [
+    {
+      "name": "Shadow",
+      "aspects": ["shadow"],
+      "evolutions": [
+        {
+        "id": "shadowmewtwo_mewtwo",
+        "variant": "item_interact",
+        "result": "mewtwo shadow=false",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "cobblemon:dark_gem"
+    }
+  ]
+    },
+    {
+      "name": "Armored",
+      "aspects": ["armored"],
+      "evolutions": [
+        {
+          "id": "armoredmewtwo_mewtwo",
+          "variant": "item_interact",
+          "result": "mewtwo armored=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:steel_gem"
+      }
+      ]
+    }
+  ]
+  }

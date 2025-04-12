@@ -1,0 +1,42 @@
+howdy! i'm easysqueeze, the creator of this pack.
+i didn't make any of the incredible models or animations in this pack. all of those are added by individual contributors who spent a ton of their time to make this pack a reality.
+please note i have the full permission of all contributors of this pack to use their assets, you can find proof in the folder titled "proofs of permission"
+
+discord:
+https://discord.gg/gddMDWX2nS
+ask questions there in the discord, please do not DM me questions
+
+THE LOCATION OF EVERY POKEMON'S SPAWN CAN BE FOUND IN THE DISCORD! SIMPLY TYPE !spawn IN ANY CHANNEL
+
+info doc:
+https://docs.google.com/document/d/1ccaWNm_0T3_0gx9qqYkaiFxoZH4tiUEGLfUkZb7lK0U/edit
+
+contributors:
+Genotype (genotypexd), the creator of GenoMons
+Raspix, the creator of CobbleCats
+ASHISK, the creator of Ashimons and a contributor to Pokemans Pack
+Kale, the creator of Kale's Collection
+Bwavii, the creator of WaviMons
+RedRibbon, the creator of MissingMons
+El Pigeon, the creator of Pigeon's PokePack
+NetImmerse, the creator of The Jewel Pokemon
+IZetyXX, one of the creators of LackingMons and a contributor to Pokemans Pack
+LegenTM, the creator of HiddenMons
+Allone, the creator of Allone's Additions
+BeeZy, one of the creators of LackingMons
+Salt, the creator of SaltMons
+Wi2tert, the creator CloudMons
+Pandalistics, a contributor to Pokemans Pack
+Tontra, the creator of Pokemans Pack
+Lazaro, a contributor to Pokemans Pack
+笑声, a contributor to Pokemans Pack
+BlazeHydroxide, the creator of Hydro's Reanimodel Pack
+YaBoiBruno, the creator of MoreMons
+
+other important people:
+SpencyRock (spencyrock), the creator of UltiMons and the inspiration for this pack, as well as significant information contributions
+Frank The Farmer (frankthefarmer), who helped me a ton with coding JSONs and was instrumental in the creation of AllTheMons
+i love you frank <3
+Squirly (squirlyvgc), who also helped with the JSONs and spawn files
+MaYayoh and DonTomas for creating the discord bot that tells people where stuff spawns
+MaYayoh (again) and Lvnatic for answering people's questions on the discord when I couldn't/didn't want to

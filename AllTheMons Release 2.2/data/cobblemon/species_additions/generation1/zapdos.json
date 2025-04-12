@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:zapdos",
+
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 2,
+    "height": 2,
+    "fixed": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "target": "cobblemon:roaringmoon",
+    "implemented": true,
+    "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": true,
+            "flySpeedHorizontal": 0.6
+          },
+          "walk": {
+            "walkSpeed": 0.2
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "canLook": true,
+        "looksAtEntities": true,
+        "wanderChance": 120,
+        "wanderSpeed": 0.2
+      }
+}

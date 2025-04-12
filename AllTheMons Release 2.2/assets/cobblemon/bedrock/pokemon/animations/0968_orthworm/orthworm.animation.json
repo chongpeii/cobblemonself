@@ -1,0 +1,149 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.orthworm.ground_idle": {
+			"loop": true,
+			"bones": {
+				"bone12": {
+					"position": [-7, 0, 0]
+				},
+				"bone10": {
+					"position": [-8, 0, 0]
+				},
+				"bone11": {
+					"position": [-8, 0, 0]
+				},
+				"bone13": {
+					"position": [-2, 0, 0]
+				},
+				"bone14": {
+					"position": [-1, 0, 0]
+				},
+				"bone15": {
+					"position": [-1, 0, 0]
+				},
+				"body": {
+					"rotation": [-15, 0, 0],
+					"position": [0, 13.74118, -12.03407]
+				},
+				"head": {
+					"rotation": [17.5, 0, 0]
+				},
+				"tail": {
+					"rotation": [-45, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"tail2": {
+					"rotation": [15, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"tail3": {
+					"rotation": [40, 0, 0],
+					"position": [0, -0.64279, -0.76604]
+				},
+				"arms_right": {
+					"position": [9, 0, 0]
+				},
+				"tail4": {
+					"rotation": [5, 0, 0]
+				},
+				"bone2": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.orthworm.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "0+Math.cos((query.anim_time - 0.5) * 180) * 8", 0],
+					"position": [0, -1, 0]
+				},
+				"bone12": {
+					"position": [-9, 0, 0]
+				},
+				"bone10": {
+					"position": [-9, 0, 0]
+				},
+				"bone11": {
+					"position": [-9, 0, 0]
+				},
+				"bone18": {
+					"position": [9, 0, 0]
+				},
+				"bone20": {
+					"position": [9, 0, 0]
+				},
+				"bone22": {
+					"position": [9, 0, 0]
+				},
+				"tail": {
+					"rotation": [0, "0+Math.cos((query.anim_time - 0.2) * 180) * 8", 0]
+				},
+				"tail2": {
+					"rotation": [0, "0+Math.cos((query.anim_time - 0.5) * 180) * 8", 0]
+				},
+				"tail3": {
+					"rotation": [0, "0+Math.cos((query.anim_time - 0.8) * 180) * 8", 0]
+				},
+				"tail4": {
+					"rotation": [0, "0+Math.cos((query.anim_time - 1.1) * 180) * 8", 0]
+				},
+				"head": {
+					"rotation": [0, "0-Math.cos((query.anim_time - 0.2) * 180) * 8", 0]
+				}
+			}
+		},
+		"animation.orthworm.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, -52.5, 0],
+					"position": [-4, 0, -7]
+				},
+				"bone12": {
+					"position": [-9, 0, 0]
+				},
+				"bone10": {
+					"position": [-9, 0, 0]
+				},
+				"bone11": {
+					"position": [-9, 0, 0]
+				},
+				"bone18": {
+					"position": [9, 0, 0]
+				},
+				"bone20": {
+					"position": [9, 0, 0]
+				},
+				"bone22": {
+					"position": [9, 0, 0]
+				},
+				"tail": {
+					"rotation": [0, 67.5, 0]
+				},
+				"tail2": {
+					"rotation": [0, 40, 0]
+				},
+				"tail3": {
+					"rotation": [0, 65, 0]
+				},
+				"tail4": {
+					"rotation": [0, 37.5, 0]
+				},
+				"head": {
+					"rotation": [0, -60, 0]
+				},
+				"bone26": {
+					"position": [0, 0, 1]
+				},
+				"bone25": {
+					"position": [0, 0, 1]
+				},
+				"bone27": {
+					"position": [0, 0, 1]
+				}
+			}
+		}
+	}
+}

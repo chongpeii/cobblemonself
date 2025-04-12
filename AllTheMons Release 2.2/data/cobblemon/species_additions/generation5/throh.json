@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:throh",
+  "implemented": true,
+  "hitbox": {
+   "width": 1,
+   "height": 2,
+   "fixed": false
+ },
+ "baseScale":0.9
+}

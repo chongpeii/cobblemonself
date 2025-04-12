@@ -1,0 +1,28 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [ -0.5, 3.2, 0 ],
+  "profileScale": 0.29,
+  "profileTranslation": [ 0, 1.24, 0 ],
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('necrozma', 'ground_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('necrozma', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('necrozma', 'ground_walk')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "phione-1",
+            "pokemon": "phione",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "50",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 2 
+            }
+        }
+    ]
+}

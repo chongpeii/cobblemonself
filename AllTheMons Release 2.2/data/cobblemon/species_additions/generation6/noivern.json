@@ -1,0 +1,27 @@
+{
+    "target": "cobblemon:noivern",
+    "implemented": true,
+    "baseScale": 1,
+    "hitbox": {
+      "width": 2,
+      "height": 2,
+      "fixed": false
+    },
+    "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true,
+            "flySpeedHorizontal": 0.4
+          },
+          "walk": {
+            "walkSpeed": 0.35
+          }
+        }
+      }
+}

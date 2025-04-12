@@ -1,0 +1,27 @@
+{
+    "target": "cobblemon:noibat",
+    "implemented": true,
+    "baseScale": 0.6,
+    "hitbox": {
+      "width": 1,
+      "height": 1.5,
+      "fixed": false
+    },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.4
+      },
+      "walk": {
+        "walkSpeed": 0.4
+      }
+    }
+  }
+}

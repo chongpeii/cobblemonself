@@ -1,0 +1,22 @@
+{
+    "target": "cobblemon:urshifu",
+    "implemented": true,
+      "behaviour": {
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "walkSpeed": 0.3,
+            "canWalk": true,
+            "avoidsLand": false
+          },
+        "fly": {
+          "canFly": false
+        },
+        "swim": {
+          "swimSpeed": 0.2,
+          "canSwimInWater": false,
+          "canBreatheUnderwater": false
+        }
+      }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "target": "cobblemon:zacian",
+    "implemented": true,
+    "evolutions": [
+        {
+            "id": "zacian-base_zacian-crowned",
+            "variant": "item_interact",
+            "result": "zacian behemoth_warrior=crowned",
+            "consumeHeldItem": false,
+            "requirements": [],
+            "requiredContext": "minecraft:iron_sword"
+          }
+    ],
+    "forms": [
+      {
+        "name": "Crowned",
+        "primaryType": "fairy",
+        "secondaryType": "steel",
+        "maleRatio": -1,
+        "height": 28,
+        "weight": 3550,
+        "pokedex": [
+          "cobblemon.species.zacian-crowned.desc"
+        ],
+        "labels": [
+          "gen8",
+          "legendary",
+          "restricted"
+        ],
+        "aspects": [
+          "crowned"
+        ],
+        "baseStats": {
+          "hp": 92,
+          "attack": 150,
+          "defence": 115,
+          "special_attack": 80,
+          "special_defence": 115,
+          "speed": 148
+        },
+        "baseExperienceYield": 350,
+        "evolutions": [
+          {
+            "id": "zacian-crowned_zacian-base",
+            "variant": "item_interact",
+            "result": "zacian behemoth_warrior=hero",
+            "consumeHeldItem": false,
+            "requirements": [],
+            "requiredContext": "minecraft:iron_sword"
+          }
+        ],
+        "battleOnly": true
+      }
+    ]  
+  }

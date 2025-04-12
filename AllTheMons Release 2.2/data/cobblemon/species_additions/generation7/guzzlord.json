@@ -1,0 +1,10 @@
+{
+    "target": "cobblemon:guzzlord",
+    "implemented": "true",
+    "baseScale": 1,
+    "hitbox": {
+      "width": 14,
+      "height": 14,
+      "fixed": false
+    }
+}

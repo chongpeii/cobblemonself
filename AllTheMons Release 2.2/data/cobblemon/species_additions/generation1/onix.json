@@ -1,0 +1,27 @@
+{
+ "target": "cobblemon:onix",
+ "features": ["crystal"],
+ "forms": [
+    {
+      "name": "Crystal",
+      "primaryType": "rock",
+      "secondaryType": "ground",
+      "aspects": ["crystal"],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4"
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.3
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        }
+      }
+    }
+  ]
+}

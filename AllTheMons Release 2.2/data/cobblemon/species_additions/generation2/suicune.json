@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:suicune",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "canWalkOnWater": true
+      }
+    }
+  }
+}

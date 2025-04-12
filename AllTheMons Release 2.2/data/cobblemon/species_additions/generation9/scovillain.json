@@ -1,0 +1,18 @@
+{
+    "target": "cobblemon:scovillain",
+    "implemented": true,
+    "baseScale": 1,
+    "hitbox": {
+      "width": 0.9,
+      "height": 1.4,
+      "fixed": false
+    },
+    "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-4"
+        }
+      }
+}

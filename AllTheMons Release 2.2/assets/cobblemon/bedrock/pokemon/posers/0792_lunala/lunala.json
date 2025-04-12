@@ -1,0 +1,46 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [ -0.375, 6.42, 0 ],
+  "profileScale": 0.33,
+  "profileTranslation": [ 0.04, 1.52, -20],
+  "animations": {},
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lunala', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lunala', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lunala', 'ground_walk')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lunala', 'ground_idle')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lunala', 'ground_walk')"
+      ]
+    }
+  }
+}

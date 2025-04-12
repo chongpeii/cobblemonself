@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ironleaves-1",
+            "pokemon": "ironleaves",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-75",
+            "weight": 4.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ],
+                "timeRange":"night"
+            }
+        }
+    ]
+}

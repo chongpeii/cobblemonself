@@ -1,0 +1,23 @@
+{
+    "target": "cobblemon:diancie",
+    "implemented": true,
+"behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.33
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-7"
+    }
+  },
+"baseScale": 0.8,
+"hitbox": {
+  "width": 0.8,
+  "height": 1.6,
+  "fixed": false
+}
+}

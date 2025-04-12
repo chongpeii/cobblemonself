@@ -1,0 +1,155 @@
+{
+    "target": "cobblemon:kyurem",
+    "implemented": true,
+    "baseScale": 1,
+    "hitbox": {
+      "width": 4,
+      "height": 4,
+      "fixed": false
+    },
+    "aspects": [
+      "base-fusion"
+    ],
+    "evolutions": [
+      {
+        "id": "kyurem_kyurem-white",
+        "variant": "item_interact",
+        "result": "kyurem absofusion=white",
+        "consumeHeldItem": false,
+        "requirements": [
+          {
+            "variant": "party_member",
+            "target": "reshiram",
+            "contains": true
+          }
+        ],
+        "requiredContext": "minecraft:echo_shard",
+        "learnableMoves": [
+          "fusionflare",
+          "iceburn"
+        ]
+      },
+      {
+        "id": "kyurem_kyurem-black",
+        "variant": "item_interact",
+        "result": "kyurem absofusion=black",
+        "consumeHeldItem": false,
+        "requirements": [
+          {
+            "variant": "party_member",
+            "target": "zekrom",
+            "contains": true
+          }
+        ],
+        "requiredContext": "minecraft:echo_shard",
+        "learnableMoves": [
+          "fusionbolt",
+          "freezeshock"
+        ]
+      }
+    ],
+    "forms": [
+      {
+        "name": "White",
+        "primaryType": "dragon",
+        "secondaryType": "ice",
+        "maleRatio": -1,
+        "height": 36,
+        "weight": 3250,
+        "pokedex": [
+          "cobblemon.species.kyurem-white.desc"
+        ],
+        "labels": [
+          "gen5",
+          "legendary",
+          "restricted"
+        ],
+        "aspects": [
+          "white-fusion"
+        ],
+        "abilities": [
+          "turboblaze",
+          "h:turboblaze"
+        ],
+        "baseStats": {
+          "hp": 125,
+          "attack": 120,
+          "defence": 90,
+          "special_attack": 170,
+          "special_defence": 100,
+          "speed": 95
+        },
+        "evYield": {
+          "hp": 0,
+          "attack": 0,
+          "defence": 0,
+          "special_attack": 3,
+          "special_defence": 0,
+          "speed": 0
+        },
+        "baseExperienceYield": 350,
+        "evolutions": [
+          {
+            "id": "kyurem-white_kyurem-base",
+            "variant": "item_interact",
+            "result": "kyurem absofusion=base",
+            "consumeHeldItem": false,
+            "requirements": [],
+            "requiredContext": "minecraft:echo_shard"
+          }
+        ],
+        "battleOnly": false
+      },
+      {
+        "name": "Black",
+        "primaryType": "dragon",
+        "secondaryType": "ice",
+        "maleRatio": -1,
+        "height": 33,
+        "weight": 3250,
+        "pokedex": [
+          "cobblemon.species.kyurem-black.desc"
+        ],
+        "labels": [
+          "gen5",
+          "legendary",
+          "restricted"
+        ],
+        "aspects": [
+          "black-fusion"
+        ],
+        "abilities": [
+          "teravolt",
+          "h:teravolt"
+        ],
+        "baseStats": {
+          "hp": 125,
+          "attack": 170,
+          "defence": 100,
+          "special_attack": 120,
+          "special_defence": 90,
+          "speed": 95
+        },
+        "evYield": {
+          "hp": 0,
+          "attack": 3,
+          "defence": 0,
+          "special_attack": 0,
+          "special_defence": 0,
+          "speed": 0
+        },
+        "baseExperienceYield": 350,
+        "evolutions": [
+          {
+            "id": "kyurem-black_kyurem-base",
+            "variant": "item_interact",
+            "result": "kyurem absofusion=base",
+            "consumeHeldItem": false,
+            "requirements": [],
+            "requiredContext": "minecraft:echo_shard"
+          }
+        ],
+        "battleOnly": false
+      }
+    ]  
+}

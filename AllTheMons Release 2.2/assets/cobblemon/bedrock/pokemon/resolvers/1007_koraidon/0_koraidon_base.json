@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:koraidon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:koraidon",
+      "model": "cobblemon:koraidon.geo",
+      "texture": "cobblemon:textures/pokemon/1007_koraidon/koraidon.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/1007_koraidon/koraidon_shiny.png"
+    }
+  ]
+}

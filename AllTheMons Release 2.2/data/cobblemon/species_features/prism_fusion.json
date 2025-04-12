@@ -1,0 +1,15 @@
+{
+  "type": "choice",
+  "keys": [
+    "prism_fusion"
+  ],
+  "default": "base",
+  "choices": [
+    "base",
+    "dusk",
+    "dawn",
+    "ultra"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-fusion"
+}

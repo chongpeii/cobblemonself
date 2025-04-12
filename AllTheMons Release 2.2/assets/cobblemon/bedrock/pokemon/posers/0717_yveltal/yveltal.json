@@ -1,0 +1,46 @@
+{
+  "portraitScale": 2.20,
+  "portraitTranslation": [ -1.60, 0.26, 0 ],
+  "profileScale": 0.43,
+  "profileTranslation": [ 0, 1.09, 0 ],
+  "animations": {},
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('yveltal', 'ground_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('yveltal', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('yveltal', 'air_idle')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('yveltal', 'air_idle')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('yveltal', 'air_idle')"
+      ]
+    }
+  }
+}

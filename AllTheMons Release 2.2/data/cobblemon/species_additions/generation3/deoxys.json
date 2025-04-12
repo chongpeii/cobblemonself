@@ -1,0 +1,166 @@
+{
+    "target": "cobblemon:deoxys",
+    "implemented": true,
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+         "depth": "normal",
+          "light": "0-4"
+    },
+       "moving": {
+    "fly": {
+          "canFly": true,
+          "flySpeedHorizontal": 0.4
+            },
+            "walk": { 
+                "walkSpeed": 0.4
+          }
+    }
+        },
+        "evolutions": [
+          {
+            "id": "deoxys_deoxys-speed",
+            "variant": "item_interact",
+            "result": "deoxys meteorite_forme=speed",
+            "learnableMoves": [],
+		        "requirements": [],
+            "requiredContext": "minecraft:chorus_flower",
+            "consumeHeldItem": false
+        },
+        {
+          "id": "deoxys_deoxys-attack",
+          "variant": "item_interact",
+          "result": "deoxys meteorite_forme=attack",
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "minecraft:end_crystal",
+          "consumeHeldItem": false
+      },
+      {
+        "id": "deoxys_deoxys-defense",
+        "variant": "item_interact",
+        "result": "deoxys meteorite_forme=defense",
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "minecraft:shulker_shell",
+        "consumeHeldItem": false
+    }
+        ],
+            "forms": [
+              {
+                "name": "Attack",
+                "primaryType": "psychic",
+                "maleRatio": -1,
+                "height": 17,
+                "weight": 608,
+                "pokedex": [
+                  "cobblemon.species.deoxys-attack.desc"
+                ],
+                "aspects": [
+                  "attack-forme"
+                ],
+                "labels": [
+                  "gen4",
+                  "mythical"
+                ],
+              
+                "baseStats": {
+                  "hp": 50,
+                  "attack": 180,
+                  "defence": 20,
+                  "special_attack": 180,
+                  "special_defence": 20,
+                  "speed": 150
+                },
+                "evolutions": [
+                  {
+                    "id": "deoxys-attack_deoxys-base",
+                    "variant": "item_interact",
+                    "result": "deoxys meteorite_forme=normal",
+                    "learnableMoves": [],
+                    "requirements": [],
+                    "requiredContext": "minecraft:end_stone",
+                    "consumeHeldItem": false
+                }
+                ],
+                "battleOnly": true
+              },
+              {
+                "name": "Defense",
+                "primaryType": "psychic",
+                "maleRatio": -1,
+                "height": 17,
+                "weight": 608,
+                "pokedex": [
+                  "cobblemon.species.deoxys-defense.desc"
+                ],
+                "aspects": [
+                  "defense-forme"
+                ],
+                "labels": [
+                  "gen4",
+                  "mythical"
+                ],
+              
+                "baseStats": {
+                  "hp": 50,
+                  "attack": 70,
+                  "defence": 160,
+                  "special_attack": 70,
+                  "special_defence": 160,
+                  "speed": 90
+                },
+                "evolutions": [
+                  {
+                    "id": "deoxys-defense_deoxys-base",
+                    "variant": "item_interact",
+                    "result": "deoxys meteorite_forme=normal",
+                    "learnableMoves": [],
+                    "requirements": [],
+                    "requiredContext": "minecraft:end_stone",
+                    "consumeHeldItem": false
+                }
+                ],
+                "battleOnly": true
+              },
+              {
+                "name": "Speed",
+                "primaryType": "psychic",
+                "maleRatio": -1,
+                "height": 17,
+                "weight": 608,
+                "pokedex": [
+                  "cobblemon.species.deoxys-speed.desc"
+                ],
+                "aspects": [
+                  "speed-forme"
+                ],
+                "labels": [
+                  "gen4",
+                  "mythical"
+                ],
+              
+                "baseStats": {
+                  "hp": 50,
+                  "attack": 95,
+                  "defence": 90,
+                  "special_attack": 95,
+                  "special_defence": 90,
+                  "speed": 180
+                },
+                "evolutions": [
+                  {
+                    "id": "deoxys-speed_deoxys-base",
+                    "variant": "item_interact",
+                    "result": "deoxys meteorite_forme=normal",
+                    "learnableMoves": [],
+                    "requirements": [],
+                    "requiredContext": "minecraft:end_stone",
+                    "consumeHeldItem": false
+                }
+                ],
+                "battleOnly": false
+              }
+            ]
+}

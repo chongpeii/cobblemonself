@@ -1,0 +1,19 @@
+{
+    "target": "cobblemon:azumarill",
+    "implemented": true,
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+},
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "target": "cobblemon:lokix",
+    "implemented": true,
+    "baseScale": 0.65,
+    "hitbox": {
+      "width": 0.7,
+      "height": 2.7,
+      "fixed": false
+    },
+    "behaviour": {
+        "resting": {
+          "canSleep": false
+        },
+        "moving": {
+          "canLook": false,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+          },
+          "wanderChance": 1
+        }
+      }
+}

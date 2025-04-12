@@ -1,0 +1,69 @@
+{
+    "target": "cobblemon:rockruff",
+    "implemented": true,
+    "baseScale": 0.7,
+  "evolutions": [
+    {
+      "id": "rockruff_lycanroc-midday",
+      "variant": "level_up",
+      "result": "lycanroc",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "counter"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    },
+    {
+      "id": "rockruff_lycanroc-midnight",
+      "variant": "level_up",
+      "result": "lycanroc midnight",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "counter"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    },
+    {
+      "id": "rockruff_lycanroc-dusk",
+      "variant": "level_up",
+      "result": "lycanroc dusk",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "crushclaw"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        },
+        {
+          "variant": "time_range",
+          "range": "noon"
+        }
+      ]
+    }
+  ],
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  }
+}

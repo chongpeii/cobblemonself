@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:hooh",
+  "order": 1,
+  "variations": [
+    {
+      "poser": "cobblemon:hooh",
+      "model": "cobblemon:hooh.geo",
+      "texture": "cobblemon:textures/pokemon/0250_hooh/hooh.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0250_hooh/hooh_shiny.png"
+    }
+  ]
+}

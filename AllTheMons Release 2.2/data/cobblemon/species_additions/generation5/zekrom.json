@@ -1,0 +1,53 @@
+{
+  "target": "cobblemon:zekrom",
+  "implemented": true,
+  "baseScale":1.0,
+  "hitbox": {
+    "width": 4,
+    "height": 5,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "5-10"
+      },
+      {
+        "item": "cobblemon:cell_battery",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.3,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

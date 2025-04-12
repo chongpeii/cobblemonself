@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:druddigon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:druddigon",
+      "model": "cobblemon:druddigon.geo",
+      "texture": "cobblemon:textures/pokemon/0621_druddigon/druddigon.png",
+      "layers": [
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0621_druddigon/druddigon_shiny.png",
+      "layers": [
+       
+      ]
+    }
+  ]
+}

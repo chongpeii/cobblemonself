@@ -1,0 +1,78 @@
+{
+    "target": "cobblemon:rayquaza",
+    "implemented": true,
+    "aspects": [
+      "base"
+    ],
+    "evolutions": [
+      {
+      "id": "rayquaza-base_rayquaza-mega",
+      "variant": "item_interact",
+      "result": "rayquaza mega_evolution=mega",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dragonascent"
+        }
+      ],
+      "requiredContext": "minecraft:nether_star"
+    }
+  ],
+    "baseScale": 1.5,
+    "hitbox": {
+      "width": 2.5,
+      "height": 3.8,
+      "fixed": false
+    },
+    "forms": [
+      {
+        "name": "Mega",
+        "primaryType": "dragon",
+        "secondaryType": "flying",
+        "maleRatio": -1,
+        "height": 108,
+        "weight": 3920,
+        "pokedex": [
+          "cobblemon.species.rayquaza-mega.desc"
+        ],
+        "labels": [
+          "gen6",
+          "legendary",
+          "restricted",
+          "mega"
+        ],
+        "aspects": [
+          "mega"
+        ],
+        "abilities": [
+          "deltastream",
+          "h:deltastream"
+        ],
+        "baseStats": {
+          "hp": 105,
+          "attack": 180,
+          "defence": 100,
+          "special_attack": 180,
+          "special_defence": 100,
+          "speed": 115
+        },
+        "baseExperienceYield": 390,
+        "catchRate": 45,
+        "dynamaxBlocked": true,
+        "evolutions": [
+          {
+            "id": "rayquaza-mega_rayquaza-base",
+            "variant": "item_interact",
+            "result": "rayquaza mega_evolution=base",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [],
+            "requiredContext": "minecraft:nether_star"
+          }
+        ],
+        "battleOnly": false
+      }
+    ]  
+   }

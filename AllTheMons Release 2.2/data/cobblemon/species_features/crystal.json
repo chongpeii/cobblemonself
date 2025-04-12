@@ -1,0 +1,10 @@
+{
+    "keys": [ "crystal" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "crystal"
+      ],
+      "isAspect": true,
+      "aspectFormat": "crystal-pattern-{{crystal}}"
+  }

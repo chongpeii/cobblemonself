@@ -1,0 +1,78 @@
+{
+  "portraitScale": 1.18,
+  "portraitTranslation": [ -1.02, 5.14, 0.0],
+  "profileScale": 0.26,
+  "profileTranslation": [0.03, 1.36, 0.0],
+  "animations": { 
+    "cry": "q.bedrock_stateful('lugia', 'cry')",
+    "recoil": "q.bedrock_stateful('lugia', 'recoil')"
+  },
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lugia', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lugia', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lugia', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lugia', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lugia', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('lugia', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lugia', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('lugia', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lugia', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('lugia', 'blink')", "q.bedrock_quirk('zapdos', 'air_fly_quirk')", "q.bedrock_quirk('zapdos', 'air_fly_quirk2')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lugia', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('lugia', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lugia', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('lugia', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('lugia', 'sleep')"]
+    }
+  }
+}

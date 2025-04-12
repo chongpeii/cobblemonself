@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:lugia",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["shadow"],
+      "poser": "cobblemon:lugia",
+      "model": "cobblemon:lugia.geo",
+      "texture": "cobblemon:textures/pokemon/0249_lugia/lugia_shadow.png"
+    },
+    {
+      "aspects": ["shadow", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0249_lugia/lugia_shadow_shiny.png"
+    }
+  ]
+}
