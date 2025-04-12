@@ -1,0 +1,14 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/ominous_trial_key"
+	},
+	"overrides": [
+    {
+		"model": "minecraft:item/megastone",
+		"predicate": {
+			"custom_model_data": 1
+			}
+		}
+	]
+}

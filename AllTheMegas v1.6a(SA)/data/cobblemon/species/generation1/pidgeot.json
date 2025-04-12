@@ -1,0 +1,254 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 18,
+  "name": "Pidgeot",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "height": 15,
+  "weight": 395,
+  "pokedex": [
+    "cobblemon.species.pidgeot.desc"
+  ],
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "abilities": [
+    "keeneye",
+    "tangledfeet",
+    "h:bigpecks"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 80,
+    "defence": 75,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 101
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "baseExperienceYield": 240,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "baseScale": 1.4,
+  "hitbox": {
+    "width": 0.75,
+    "height": 1.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "light": "0-4"
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.42
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:sandattack",
+    "1:gust",
+    "1:quickattack",
+    "1:hurricane",
+    "17:whirlwind",
+    "22:twister",
+    "27:featherdance",
+    "32:agility",
+    "38:wingattack",
+    "44:roost",
+    "50:tailwind",
+    "56:mirrormove",
+    "62:airslash",
+    "egg:feintattack",
+    "egg:foresight",
+    "egg:pursuit",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bide",
+    "tm:bravebird",
+    "tm:captivate",
+    "tm:confide",
+    "tm:curse",
+    "tm:defog",
+    "tm:detect",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:laserfocus",
+    "tm:mimic",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:ominouswind",
+    "tm:pluck",
+    "tm:protect",
+    "tm:rage",
+    "tm:raindance",
+    "tm:razorwind",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:round",
+    "tm:secretpower",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:twister",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:uproar"
+  ],
+  "preEvolution": "pidgeotto",
+  "evolutions": [
+    {
+      "id": "pidgeot_megapidgeot",
+      "variant": "level_up",
+      "result": "pidgeot mega",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+          {
+            "variant": "level",
+            "minLevel": "50"
+          },
+          {
+            "variant": "friendship",
+            "amount": 180
+          },
+          {
+            "variant": "held_item",
+            "itemCondition": "minecraft:ominous_trial_key"
+          }          
+       ]
+    }
+],
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "normal",
+      "secondaryType": "flying",
+      "maleRatio": 0.5,
+      "height": 22,
+      "weight": 505,
+      "pokedex": [
+        "cobblemon.species.pidgeot-mega.desc"
+      ],
+      "labels": [
+        "gen6",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "noguard",
+        "h:noguard"
+      ],
+      "baseStats": {
+        "hp": 83,
+        "attack": 80,
+        "defence": 80,
+        "special_attack": 135,
+        "special_defence": 80,
+        "speed": 121
+      },
+      "baseExperienceYield": 290,
+      "dynamaxBlocked": true,
+      "evolutions": [
+        {
+          "id": "megapidgeot_pidgeot",
+          "variant": "level_up",
+          "result": "pidgeot mega=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+		  {
+            "variant": "held_item",
+            "itemCondition": "minecraft:ominous_trial_key"
+          }
+		  ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

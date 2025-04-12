@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "dpd",
+    "gnb",
+    "dyd"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:nether_star"
+    },
+	"g": {
+      "item": "minecraft:green_dye"
+    },
+	"p": {
+      "item": "minecraft:pink_dye"
+    },
+	"y": {
+      "item": "minecraft:yellow_dye"
+    },
+	"b": {
+      "item": "minecraft:blue_dye"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "minecraft:ominous_trial_key",
+    "components": {
+      "minecraft:custom_model_data": 1,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Generic Megastone\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"text\":\"Control the flow of Mega energy.\"}"
+      ]
+    }
+  }
+}

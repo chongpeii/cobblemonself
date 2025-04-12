@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:diancie",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["mega"],
+      "poser": "cobblemon:diancie_mega",
+      "model": "cobblemon:diancie_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0719_diancie/diancie_mega.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega","shiny"
+      ],
+      "poser": "cobblemon:diancie_mega",
+      "model": "cobblemon:diancie_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0719_diancie/diancie_mega_shiny.png"
+    }
+  ]
+}
