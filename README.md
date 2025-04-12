@@ -1,2 +1,2 @@
 # cobblemonself
- my own cobblemon mods
+ my own configuration for cobblemon mods
