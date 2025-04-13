@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "68-72",
-      "weight": 0.1,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "minecraft:badlands",
@@ -33,8 +33,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "68-.72",
-      "weight": 0.1,
+      "level": "68-72",
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna",

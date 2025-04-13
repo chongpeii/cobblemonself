@@ -11,7 +11,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "60-70",
-      "weight": 0.1,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "minecraft:swamp",

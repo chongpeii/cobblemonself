@@ -11,7 +11,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70-80",
-      "weight": 0.1,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "minecraft:dark_forest",

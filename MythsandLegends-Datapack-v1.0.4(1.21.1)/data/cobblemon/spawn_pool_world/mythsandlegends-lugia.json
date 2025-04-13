@@ -14,7 +14,7 @@
       "context": "submerged",
       "bucket": "ultra-rare",
       "level": "40-70",
-      "weight": 0.1,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean",
@@ -35,7 +35,7 @@
       "context": "submerged",
       "bucket": "ultra-rare",
       "level": "40-70",
-      "weight": 0.1,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_ocean",

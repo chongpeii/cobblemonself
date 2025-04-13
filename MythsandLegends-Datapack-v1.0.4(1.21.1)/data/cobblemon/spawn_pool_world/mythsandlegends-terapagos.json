@@ -11,7 +11,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "75",
-      "weight": 0.1,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain",
@@ -30,7 +30,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "75",
-      "weight": 0.1,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain",

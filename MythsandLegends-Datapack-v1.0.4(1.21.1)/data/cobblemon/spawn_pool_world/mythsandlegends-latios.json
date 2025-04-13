@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "30-50",
-      "weight": 0.1,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "terralith:mirage_isles",
@@ -33,7 +33,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "30-50",
-      "weight": 0.1,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast",

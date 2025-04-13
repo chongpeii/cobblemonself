@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.1,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "minecraft:taiga",
@@ -33,7 +33,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.1,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "#cobblemon:is_plateau",
