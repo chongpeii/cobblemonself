@@ -45,7 +45,8 @@
           "#minecraft:is_end",
           "#cobblemon:is_end",
           "#cobblemon:is_jungle",
-          "#minecraft:is_jungle"
+          "#minecraft:is_jungle",
+          "#aether:is_aether"
         ],
         "key_item": "jade_orb"
       }
