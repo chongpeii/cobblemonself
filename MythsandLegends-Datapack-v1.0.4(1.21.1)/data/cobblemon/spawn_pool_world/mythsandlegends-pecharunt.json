@@ -41,6 +41,27 @@
         ],
         "key_item": "mythical_pecha_berry"
       }
+    },
+    {
+      "id": "mythsandlegends-pecharunt-2",
+      "pokemon": "pecharunt",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.6,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+       ],
+       "structures": [
+          "#aether:dungeons"
+       ],
+        "key_item": "mythical_pecha_berry"
+      }
     }
   ]
 }
