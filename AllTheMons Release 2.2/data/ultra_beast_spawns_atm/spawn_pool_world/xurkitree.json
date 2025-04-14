@@ -20,6 +20,26 @@
                 ],
                 "neededNearbyBlocks": ["minecraft:lightning_rod"]
             }
+        },
+        {
+            "id": "xurkitree-1",
+            "pokemon": "xurkitree",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60",
+            "weight": 1.5,
+            "condition": {
+        "biomes": [
+          "#aether:is_aether"
+       ],
+       "structures": [
+          "#aether:dungeons"
+       ]
+            }
         }
     ]
  }
