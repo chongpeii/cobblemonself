@@ -48,7 +48,9 @@
           "#cobblemon:is_magical",
           "#cobblemon:is_lush",
           "minecraft:cherry_grove",
-          "#cobblemon:is_spring"
+          "#cobblemon:is_spring",
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
         ],
         "key_item": "gs_ball"
       }
