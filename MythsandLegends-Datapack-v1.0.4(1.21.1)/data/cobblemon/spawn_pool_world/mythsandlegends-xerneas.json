@@ -38,7 +38,9 @@
         "biomes": [
           "#cobblemon:is_forest",
           "#cobblemon:is_magical",
-          "#cobblemon:is_floral"
+          "#cobblemon:is_floral",
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
         ],
         "key_item": "sapling_of_life"
       }
