@@ -41,10 +41,12 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.1,
+      "weight": 0.6,
       "condition": {
         "biomes": [
-          "#cobblemon:is_lush"
+          "#cobblemon:is_lush",
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
         ],
         "key_item": "oaks_letter"
       }
