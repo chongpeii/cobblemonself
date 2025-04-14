@@ -54,18 +54,12 @@
     {
       "id": "mythsandlegends-palkia-3",
       "pokemon": "Palkia",
-      "presets": [
-        "natural"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "47-70",
       "weight": 0.3,
       "condition": {
-        "biomes": [
-          "#aether:is_aether"
-       ],
        "structures": [
           "#aether:dungeons"
        ],
