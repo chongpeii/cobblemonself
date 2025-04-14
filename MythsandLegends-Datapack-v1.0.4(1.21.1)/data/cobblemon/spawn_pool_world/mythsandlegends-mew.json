@@ -38,7 +38,9 @@
         "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_lush",
-          "#cobblemon:is_bamboo"
+          "#cobblemon:is_bamboo",
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
         ],
         "key_item": "old_sea_map"
       }
