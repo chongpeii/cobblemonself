@@ -41,6 +41,27 @@
         ],
         "key_item": "griseous_orb"
       }
+    },
+    {
+      "id": "mythsandlegends-giratina-3",
+      "pokemon": "Giratina",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "47-70",
+      "weight": 0.2,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+       ],
+       "structures": [
+          "#aether:dungeons"
+       ],
+        "key_item": "griseous_orb"
+      }
     }
   ]
 }
