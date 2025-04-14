@@ -41,6 +41,27 @@
         ],
         "key_item": "member_card"
       }
+    },
+    {
+      "id": "mythsandlegends-darkrai-3",
+      "pokemon": "darkrai",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 0.6,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+       ],
+       "structures": [
+          "#aether:dungeons"
+       ],
+        "key_item": "member_card"
+      }
     }
   ]
 }
