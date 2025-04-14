@@ -45,9 +45,6 @@
     {
       "id": "mythsandlegends-giratina-3",
       "pokemon": "Giratina",
-      "presets": [
-        "natural"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
