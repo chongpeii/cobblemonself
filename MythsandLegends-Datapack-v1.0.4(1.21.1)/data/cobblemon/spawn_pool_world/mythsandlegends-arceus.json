@@ -54,6 +54,27 @@
         ],
         "key_item": "azure_flute"
       }
+    },
+    {
+      "id": "mythsandlegends-arceus-3",
+      "pokemon": "arceus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "80",
+      "weight": 0.2,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+       ],
+       "structures": [
+          "#aether:dungeons"
+       ],
+        "key_item": "azure_flute"
+      }
     }
   ]
 }
