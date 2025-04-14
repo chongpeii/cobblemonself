@@ -5,14 +5,14 @@
   "spawns": [
     {
       "id": "mythsandlegends-zygarde-1",
-      "pokemon": "zygarde",
+      "pokemon": "zygarde percent_cells=complete",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "70",
+      "level": "75-90",
       "weight": 0.3,
       "condition": {
         "biomes": [
@@ -27,15 +27,15 @@
     },
     {
       "id": "mythsandlegends-zygarde-2",
-      "pokemon": "zygarde",
+      "pokemon": "zygarde percent_cells=complete",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "70",
-      "weight": 0.1,
+      "level": "75-90",
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
@@ -47,15 +47,15 @@
     },
     {
       "id": "mythsandlegends-zygarde-3",
-      "pokemon": "zygarde",
+      "pokemon": "zygarde percent_cells=10",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "70",
-      "weight": 0.3,
+      "level": "12-35",
+      "weight": 0.7,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
@@ -74,8 +74,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "70",
-      "weight": 0.3,
+      "level": "50-65",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
