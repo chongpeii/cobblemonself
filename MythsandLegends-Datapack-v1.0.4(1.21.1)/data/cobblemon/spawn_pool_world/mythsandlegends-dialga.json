@@ -45,9 +45,6 @@
     {
       "id": "mythsandlegends-dialga-3",
       "pokemon": "dialga",
-      "presets": [
-        "natural"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
