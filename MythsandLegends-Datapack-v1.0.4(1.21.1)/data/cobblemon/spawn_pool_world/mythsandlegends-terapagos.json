@@ -41,5 +41,26 @@
         "key_item": "prismatic_shell"
       }
     }
+    {
+      "id": "mythsandlegends-terapagos-3",
+      "pokemon": "terapagos",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "75",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+       ],
+       "structures": [
+          "#aether:dungeons"
+       ],
+        "key_item": "prismatic_shell"
+      }
+    }
   ]
 }
