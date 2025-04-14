@@ -29,7 +29,9 @@
           "terralith:shrubland",
           "wythers:granite_canyon",
           "wythers:tropical_forest_canyon",
-          "wythers:tropical_forest"
+          "wythers:tropical_forest",
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
         ],
         "key_item": "zeraoras_thunderclaw"
       }
