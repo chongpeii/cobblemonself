@@ -58,9 +58,6 @@
     {
       "id": "mythsandlegends-arceus-3",
       "pokemon": "arceus",
-      "presets": [
-        "natural"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
