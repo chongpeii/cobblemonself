@@ -39,7 +39,9 @@
         "biomes": [
           "#cobblemon:is_volcanic",
           "#cobblemon:is_thermal",
-          "#cobblemon:is_savanna"
+          "#cobblemon:is_savanna",
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
         ],
         "key_item": "liberty_pass"
       }
