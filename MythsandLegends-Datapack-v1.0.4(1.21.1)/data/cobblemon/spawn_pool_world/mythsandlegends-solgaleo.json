@@ -16,7 +16,9 @@
         "biomes": [
           "#cobblemon:is_plateau",
           "minecraft:desert",
-          "wythers:badlands_desert"
+          "wythers:badlands_desert",
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
         ],
         "timeRange": "day",
         "key_item": "sun_flute"
