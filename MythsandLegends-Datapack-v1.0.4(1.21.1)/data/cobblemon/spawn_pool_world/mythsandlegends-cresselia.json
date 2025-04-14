@@ -12,13 +12,20 @@
       "bucket": "ultra-rare",
       "level": "50-70",
       "weight": 0.6,
+      "weightMultiplier": {
+          "multiplier": 3.5,
+          "condition": {
+                   "moonPhase": 1,
+               }
+           },
       "condition": {
         "biomes": [
           "minecraft:mushroom_fields",
           "minecraft:mushroom_field_shore",
-          "minecraft:snowy_tundra"
+          "minecraft:snowy_tundra",
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
         ],
-        "moonPhase": 1,
         "canSeeSky": true,
         "timeRange": "night",
         "key_item": "lunar_feather"
