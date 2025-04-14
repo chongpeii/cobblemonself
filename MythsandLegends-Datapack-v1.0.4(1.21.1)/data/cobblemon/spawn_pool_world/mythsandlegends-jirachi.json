@@ -36,7 +36,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",
-          "#cobblemon:is_sparse"
+          "#cobblemon:is_sparse",
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
         ],
         "key_item": "bonus_disk"
       }
