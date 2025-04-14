@@ -35,7 +35,9 @@
       "weight": 0.3,
       "condition": {
         "biomes": [
-          "#cobblemon:is_deep_dark"
+          "#cobblemon:is_deep_dark",
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
         ],
         "key_item": "violet_book"
       }
