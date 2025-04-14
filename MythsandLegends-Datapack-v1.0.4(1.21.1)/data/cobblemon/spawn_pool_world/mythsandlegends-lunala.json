@@ -16,7 +16,9 @@
         "biomes": [
           "minecraft:dark_forest",
           "byg:warped_desert",
-          "#cobblemon:is_hills"
+          "#cobblemon:is_hills",
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
         ],
         "timeRange": "night",
         "key_item": "moon_flute"
