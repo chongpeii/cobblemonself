@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "47-70",
-      "weight": 0.2,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "terralith:skylands_winter",
@@ -37,7 +37,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "47-70",
-      "weight": 0.2,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "terralith:skylands_winter",
@@ -61,7 +61,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "47-70",
-      "weight": 0.2,
+      "weight": 0.3,
       "condition": {
         "biomes": [
           "#aether:is_aether"
