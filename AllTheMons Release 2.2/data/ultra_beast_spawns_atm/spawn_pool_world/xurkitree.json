@@ -33,9 +33,6 @@
             "level": "60",
             "weight": 1.5,
             "condition": {
-        "biomes": [
-          "#aether:is_aether"
-       ],
        "structures": [
           "#aether:dungeons"
        ]
