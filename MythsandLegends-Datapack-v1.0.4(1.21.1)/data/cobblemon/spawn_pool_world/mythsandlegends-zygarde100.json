@@ -27,22 +27,22 @@
     },
     {
       "id": "mythsandlegends-zygarde-2",
-      "pokemon": "zygarde percent_cells=complete",
+      "pokemon": "zygarde percent_cells=1",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "75-90",
-      "weight": 0.3,
+      "level": "1",
+      "weight": 1.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
           "#cobblemon:is_cave",
           "#cobblemon:is_swamp"
         ],
-        "key_item": "zygarde_cube"
+        "key_item": "zygarde_cell"
       }
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "id": "mythsandlegends-zygarde-4",
-      "pokemon": "zygarde",
+      "pokemon": "zygarde percent_cells=50",
       "presets": [
         "natural"
       ],
