@@ -36,7 +36,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky",
-          "#cobblemon:is_tundra"
+          "#cobblemon:is_tundra",
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
         ],
         "key_item": "cocoon_of_destruction"
       }
