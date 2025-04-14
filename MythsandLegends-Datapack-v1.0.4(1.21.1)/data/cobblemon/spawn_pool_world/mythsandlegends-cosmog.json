@@ -41,8 +41,9 @@
           "wythers:lapacho_plains",
           "wythers:sakura_forest",
           "wythers:spring_flower_fields",
-          "wythers:spring_flower_forest"
-
+          "wythers:spring_flower_forest",
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
         ],
         "key_item": "lillies_bag"
       }
