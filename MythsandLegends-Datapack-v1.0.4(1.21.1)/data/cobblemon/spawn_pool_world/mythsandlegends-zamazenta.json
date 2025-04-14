@@ -38,7 +38,9 @@
         "biomes": [
           "#cobblemon:is_plateau",
           "#cobblemon:is_savanna",
-          "#cobblemon:is_highlands"
+          "#cobblemon:is_highlands",
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
         ],
         "key_item": "rusted_shield"
       }
