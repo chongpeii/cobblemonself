@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.5,
+      "weight": 1.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -31,7 +31,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.5,
+      "weight": 1.0,
       "condition": {
         "biomes": [
           "#minecraft:is_savanna",
@@ -58,7 +58,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 1.0,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "#minecraft:is_savanna",

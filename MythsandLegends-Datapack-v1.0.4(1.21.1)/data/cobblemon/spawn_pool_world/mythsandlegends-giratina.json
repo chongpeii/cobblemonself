@@ -16,7 +16,6 @@
       "weight": 0.3,
       "condition": {
         "biomes": [
-          "minecraft:soul_sand_valley",
           "minecraft:the_end"
         ],
         "key_item": "griseous_orb"
@@ -32,12 +31,13 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "47-70",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_nether",
           "#cobblemon:is_spooky",
-          "#cobblemon:is_nether_wasteland"
+          "#cobblemon:is_nether_wasteland",
+          "minecraft:soul_sand_valley"
         ],
         "key_item": "griseous_orb"
       }
@@ -49,7 +49,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "47-70",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
        "structures": [
           "#aether:dungeons"

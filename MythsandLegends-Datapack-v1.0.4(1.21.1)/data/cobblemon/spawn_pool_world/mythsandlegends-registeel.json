@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "40",
-      "weight": 1.0,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "minecraft:deep_dark",
@@ -35,7 +35,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "40",
-      "weight": 1.0,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "#minecraft:village"
@@ -56,7 +56,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "40",
-      "weight": 1.0,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "#minecraft:village"

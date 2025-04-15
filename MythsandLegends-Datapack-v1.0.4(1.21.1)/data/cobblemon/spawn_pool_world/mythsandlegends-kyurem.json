@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "75",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "minecraft:frozen_peaks",
@@ -33,7 +33,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "75",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing",

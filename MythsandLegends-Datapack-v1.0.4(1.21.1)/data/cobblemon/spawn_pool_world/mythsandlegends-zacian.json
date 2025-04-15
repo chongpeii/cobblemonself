@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "minecraft:flower_forest",
@@ -33,7 +33,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",

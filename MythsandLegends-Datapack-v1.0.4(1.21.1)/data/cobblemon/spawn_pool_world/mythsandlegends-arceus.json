@@ -20,7 +20,8 @@
           "minecraft:end_barrens",
           "minecraft:end_highlands",
           "minecraft:end_midlands",
-          "minecraft:small_end_islands"
+          "minecraft:small_end_islands",
+          "#cobblemon:is_end"
         ],
         "key_item": "azure_flute"
       }
@@ -35,7 +36,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "80",
-      "weight": 0.2,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "minecraft:dark_forest",
@@ -49,8 +50,7 @@
           "terralith:moonlight_valley",
           "wythers:lantern_river",
           "wythers:mushroom_island",
-          "wythers:snowy_thermal_taiga",
-          "#cobblemon:is_end"
+          "wythers:snowy_thermal_taiga"
         ],
         "key_item": "azure_flute"
       }
@@ -62,7 +62,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "80",
-      "weight": 0.2,
+      "weight": 0.5,
       "condition": {
        "structures": [
           "#aether:dungeons"

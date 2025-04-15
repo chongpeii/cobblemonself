@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.6,
+      "weight": 1.3,
       "condition": {
         "maxY": 10,
         "minY": -64,
@@ -33,7 +33,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.6,
+      "weight": 1.3,
       "condition": {
         "maxY": 10,
         "minY": -64,

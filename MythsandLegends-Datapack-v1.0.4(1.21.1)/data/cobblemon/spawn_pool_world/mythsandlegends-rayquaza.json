@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-70",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "terralith:skylands_autumn",
@@ -21,7 +21,12 @@
           "terralith:skylands_summer",
           "terralith:skylands_winter",
           "#cobblemon:is_jungle",
-          "#minecraft:is_jungle"
+          "#minecraft:is_jungle",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_jungle",
+          "#minecraft:is_jungle",
+          "#aether:is_aether"
         ],
         "key_item": "jade_orb"
       }
@@ -39,14 +44,9 @@
       "weight": 0.3,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_highlands",
           "minecraft:end_highlands",
           "#minecraft:is_end",
-          "#cobblemon:is_end",
-          "#cobblemon:is_jungle",
-          "#minecraft:is_jungle",
-          "#aether:is_aether"
+          "#cobblemon:is_end"
         ],
         "key_item": "jade_orb"
       }

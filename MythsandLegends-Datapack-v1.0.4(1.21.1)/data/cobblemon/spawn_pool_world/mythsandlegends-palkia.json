@@ -17,7 +17,6 @@
       "weight": 0.3,
       "condition": {
         "biomes": [
-          "terralith:skylands_winter",
           "minecraft:the_end",
           "minecraft:end_barrens",
           "minecraft:end_highlands",
@@ -37,16 +36,10 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "47-70",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
         "biomes": [
-          "terralith:skylands_winter",
-          "minecraft:the_end",
-          "minecraft:end_barrens",
-          "minecraft:end_highlands",
-          "minecraft:end_midlands",
-          "#cobblemon:is_end",
-          "minecraft:small_end_islands"
+          "terralith:skylands_winter"
         ],
         "key_item": "lustrous_orb"
       }
@@ -58,7 +51,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "47-70",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
        "structures": [
           "#aether:dungeons"

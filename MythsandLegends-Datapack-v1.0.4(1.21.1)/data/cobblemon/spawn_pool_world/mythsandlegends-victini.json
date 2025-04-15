@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70-100",
-      "weight": 0.6,
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "minecraft:badlands",
@@ -34,7 +34,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70-100",
-      "weight": 0.6,
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_volcanic",

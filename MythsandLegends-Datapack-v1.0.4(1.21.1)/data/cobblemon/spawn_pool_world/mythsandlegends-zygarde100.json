@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "75-90",
-      "weight": 0.3,
+      "weight": 0.6,
       "condition": {
         "biomes": [
           "minecraft:birch_forest",
@@ -35,7 +35,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "1-5",
-      "weight": 1.0,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
@@ -55,7 +55,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "12-35",
-      "weight": 0.7,
+      "weight": 1.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
@@ -75,7 +75,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-65",
-      "weight": 0.5,
+      "weight": 1.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
