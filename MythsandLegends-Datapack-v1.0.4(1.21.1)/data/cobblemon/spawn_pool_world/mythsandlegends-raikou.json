@@ -45,10 +45,10 @@
           "maxSkyLight": 15,
           "biomes": [
               "#cobblemon:is_overworld"
-          ]
-      },
+          ],
       "key_item": "mythsandlegends:clear_bell",
       "thunder_stone_requirement": "3"
+      }
     }
   ]
 }
