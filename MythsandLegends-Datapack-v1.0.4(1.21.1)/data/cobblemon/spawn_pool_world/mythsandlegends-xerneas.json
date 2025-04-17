@@ -20,6 +20,7 @@
           "minecraft:forest",
           "minecraft:meadow"
         ],
+        "timeRange": "day",
         "key_item": "sapling_of_life"
       }
     },
@@ -42,6 +43,7 @@
           "aether:skyroot_grove",
           "aether:skyroot_meadow"
         ],
+        "timeRange": "day",
         "key_item": "sapling_of_life"
       }
     }
