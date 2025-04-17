@@ -24,7 +24,7 @@
               }
           },
           {
-              "multiplier": 3,
+              "multiplier": 2.5,
               "condition": {
                   "isRaining": true
               },
