@@ -13,32 +13,40 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-60",
-      "weight": 1.4,
-      "condition": {
-        "biomes": [
-          "minecraft:frozen_river",
-          "minecraft:river"
-        ],
-        "key_item": "clear_bell",
-        "water_stone_requirement": "3"
-      }
-    },
-    {
-      "id": "mythsandlegends-suicune-2",
-      "pokemon": "suicune",
-      "presets": [
-        "river"
+      "weight": 0.5,
+      "weightMultipliers": [
+          {
+              "multiplier": 1.5,
+              "condition": {
+                  "neededNearbyBlocks": [
+                      "minecraft:water"
+                  ]
+              }
+          },
+          {
+              "multiplier": 3,
+              "condition": {
+                  "isRaining": true
+              },
+              "anticondition": {
+                  "biomes": [
+                      "#cobblemon:is_arid"
+                  ]
+              }
+          },
+          {
+              "multiplier": 0.5,
+              "condition": {
+                  "biomes": [
+                      "#cobblemon:is_arid"
+                  ]
+              }
+          }
       ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "50-60",
-      "weight": 1.4,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_cold_ocean"
-        ],
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
         "key_item": "clear_bell",
         "water_stone_requirement": "3"
       }

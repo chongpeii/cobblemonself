@@ -13,37 +13,42 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-60",
-      "weight": 1.4,
-      "condition": {
-        "biomes": [
-          "minecraft:plains",
-          "minecraft:savanna",
-          "minecraft:savanna_plateau"
-        ],
-        "key_item": "clear_bell",
-        "thunder_stone_requirement": "3"
-      }
-    },
-    {
-      "id": "mythsandlegends-raikou-2",
-      "pokemon": "raikou",
-      "presets": [
-        "natural"
+      "weight": 0.5,
+      "weightMultipliers": [
+          {
+              "multiplier": 2,
+              "condition": {
+                  "isRaining": true
+              },
+              "anticondition": {
+                  "biomes": [
+                      "#cobblemon:is_arid",
+                      "#cobblemon:is_snowy"
+                  ]
+              }
+          },
+          {
+              "multiplier": 3,
+              "condition": {
+                  "isThundering": true
+              },
+              "anticondition": {
+                  "biomes": [
+                      "#cobblemon:is_arid",
+                      "#cobblemon:is_snowy"
+                  ]
+              }
+          }
       ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "50-60",
-      "weight": 1.4,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_plains",
-          "#cobblemon:is_grassland",
-          "#cobblemon:is_arid"
-        ],
-        "key_item": "clear_bell",
-        "thunder_stone_requirement": "3"
-      }
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ]
+      },
+      "key_item": "mythsandlegends:clear_bell",
+      "thunder_stone_requirement": "3"
     }
   ]
 }

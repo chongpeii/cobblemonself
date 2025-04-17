@@ -36,7 +36,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "80",
-      "weight": 0.5,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "minecraft:dark_forest",
@@ -62,7 +62,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "80",
-      "weight": 0.5,
+      "weight": 0.4,
       "condition": {
        "structures": [
           "#aether:dungeons"

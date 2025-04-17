@@ -13,37 +13,46 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-60",
-      "weight": 1.4,
-      "condition": {
-        "biomes": [
-          "minecraft:badlands",
-          "minecraft:eroded_badlands",
-          "minecraft:nether_wastes",
-          "minecraft:savanna",
-          "minecraft:windswept_hills",
-          "minecraft:windswept_forest"
-        ],
-        "key_item": "clear_bell",
-        "fire_stone_requirement": "3"
-      }
-    },
-    {
-      "id": "mythsandlegends-entei-2",
-      "pokemon": "entei",
-      "presets": [
-        "natural"
+      "weight": 0.5,
+      "weightMultipliers": [
+          {
+              "multiplier": 1.5,
+              "condition": {
+                  "timeRange": "day"
+              }
+          },
+          {
+              "multiplier": 1.5,
+              "condition": {
+                  "biomes": [
+                      "#cobblemon:is_arid"
+                  ]
+              }
+          },
+          {
+              "multiplier": 2,
+              "condition": {
+                  "neededNearbyBlocks": [
+                      "minecraft:lava"
+                  ]
+              }
+          },
+          {
+              "multiplier": 0.5,
+              "condition": {
+                  "isRaining": true
+              },
+              "anticondition": {
+                  "biomes": [
+                      "#cobblemon:is_arid"
+                  ]
+              }
+          }
       ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "50-60",
-      "weight": 1.4,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_volcanic",
-          "#cobblemon:is_thermal",
-          "#cobblemon:is_badlands"
-        ],
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
         "key_item": "clear_bell",
         "fire_stone_requirement": "3"
       }

@@ -34,9 +34,10 @@
       "level": "50",
       "weight": 0.6,
       "condition": {
+        "timeRange":"night",
         "biomes": [
-          "#cobblemon:is_spooky",
-          "#cobblemon:is_tundra",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_soul_sand",
           "aether:skyroot_grove",
           "aether:skyroot_meadow"
         ],
